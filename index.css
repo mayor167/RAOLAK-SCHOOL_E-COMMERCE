@@ -462,9 +462,40 @@ padding-bottom: 15px;
 }
 .shirts_hoods div{
     color: #fff;
+    background-color: #000;
     width:18.2%;
-    background-color:black;
     height: 400px;
     float: left;
     margin-right: 20px;
+}
+.shirts_hoods .product1 {
+   background-image: url('shirts_hood_gallery/shirt_1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.shirts_hoods .product2{
+    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.shirts_hoods .product3{
+    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 250px;
+}
+.shirts_hoods .product4{
+    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 250px;
+}
+.shirts_hoods .product5{
+   
 }
