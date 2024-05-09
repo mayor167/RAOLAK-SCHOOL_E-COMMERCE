@@ -231,7 +231,7 @@ body {
 }
 
 .add-to-cart {
-    background-color: #007bff;
+    background-color: #10439f;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -245,7 +245,8 @@ body {
 
 
 .ratings {
-    color: green;
+    font-weight: bold;
+    color: #007784;
 }
 
 .rating {
