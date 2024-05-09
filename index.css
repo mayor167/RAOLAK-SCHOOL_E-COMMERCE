@@ -1,0 +1,501 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*My code starts here*/
+
+header{
+   width: 100%;
+   height: 180px;
+   overflow: hidden;
+}
+header .logo-banner{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 30px 150px 0px 100px;
+}
+.logo-banner img{
+    margin-top: -35px;
+}
+.logo-banner h1{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+   color: hsl(300, 100%, 25%);
+    padding-right: 10px;
+}
+.logo-banner .Allproduct_dropdownMenu{
+    background-color: #f7f7f7;
+}
+.logo-banner input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 500px;
+}
+.logo-banner select{
+    border: 1px solid  #e6e6e6;
+    background: #f7f7f7;
+   margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 35px;
+    outline: none;
+}
+.logo-banner .search{
+background-color: #f7f7f7;
+width: 600px;
+border: 1px solid #e6e6e6;
+border-radius: 20px;
+height: 31px;
+margin-left: 5px;
+padding-top: 5px;
+}
+.logo-banner .search span{
+    float: right;
+}
+.right-menus span{
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+header .nav-bar{
+    display: flex;
+    background-color: hsl(300, 100%, 25%);
+    width: 100%;
+    padding: 18px 150px 18px 100px;
+}
+
+nav ul{
+list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding-left:15px;
+}
+nav ul li a{
+    font-family: "lato";
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.last-nav-bar{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 18px 150px 18px 75px;
+}
+.last-nav-bar span {
+    padding-left: 40px;
+   margin-top: -15px;
+}
+.last-nav-bar .icon.material-symbols-outlined{
+    color: #cccccc;
+}
+ .last-nav-bar p,a{
+    color: #10439F;
+    text-decoration: none;
+    font-family: 'lato';
+}
+main{
+    display: flex;
+    height: 600px;   
+    margin-top: 5px;
+    margin-right: 100px;
+    margin-left: 120px;    
+}
+main .product_slider{
+    width: 70%;
+    background-image: linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url('index_images/Happy_New_month_message.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: 30s slide infinite linear;
+}
+@keyframes slide{
+    0%, 20%{
+        background-image: linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url('index_images/black_friday_e_flier.jpg');
+    }
+    20%, 40%{
+        background-image: linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url('index_images/general_advert.jpeg');
+    }
+    40%, 60%{
+        background-image: linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url(index_images/shoes.jpg);
+    }
+    60%, 80%{
+        background-image:linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url('index_images/sneakers.jpg');
+    }
+    80%, 100%{
+        background-image: linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url('index_images/Happy_New_month_message.jpeg');
+    }
+}
+main .cheap_sales{
+    width: 25%;
+    margin-left: 20px;
+}
+.col_awuf_sales{
+    background-image: linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url('login_backgrd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 275px;
+    padding-top: 75px;
+    
+}
+.col_awuf_sales p{
+    color: #fff;
+    font-family: "lato";
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.col_awuf_sales h1{
+    font-family: 'lato';
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
+}
+.div_time h1{
+    font-family: 'lato';
+    font-size: 20px;
+    font-weight: 600;
+}
+.div_time h6{
+    font-family: "lato";
+    font-size: 8px;
+    font-weight:700;
+}
+.div_time{
+    width: 60px;
+    height: 40px;
+    background-color: #5c5c5e;
+    margin-left: 20px;
+    margin-top:10px;
+    padding-top: 5px;
+    opacity: 1;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.btn_browse{
+    background-color: #10439F;
+    width: 40%;
+    margin-top: 90px;
+}
+.btn_browse h1{
+    font-family: 'lato';
+    font-size:10px;
+    line-height: 17px;
+    padding: 5px 0px;
+}
+
+.col_black_friday_sales{
+    background-image: linear-gradient(rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65),rgb(0,0,0,0.65)),url('index_images/black_friday_e_flier.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 160px;
+    margin-top: 20px;
+    padding-top: 70px;
+}
+.col_black_friday_sales .btn_browse{
+    margin-top:10px;
+}
+.col_black_friday_sales h1{
+    font-family: 'lato';
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
+}
+.col_black_friday_sales .btn_browse h1{
+    font-family: 'lato';
+    font-size:10px;
+    line-height: 17px;
+    padding: 5px 0px;
+}
+.product_slider{
+    padding-top: 250px;
+    padding-bottom: 300px;
+}
+.product_slider h1{
+  font-family: 'lato';
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
+    mix-blend-mode:difference;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.product_slider p{
+    font-family: 'lato';
+    font-family: 900;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.product_slider ul{
+list-style: none;
+}
+.product_slider ul li{
+display: inline-block;
+margin-left: 20px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: #10439F;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.product_slider ul li a{
+    color: #fff;
+}
+.how_to_register{
+    display: flex;
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 550px;
+}
+.how_to_register .wrapper{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.col_icons{
+    width: 12%;
+    height: 100%;
+}
+.col_icons div{
+    width: 80px;
+    height: 80px;
+    
+}
+.col_icons .box1{
+    background-color: #eef0fa;
+}
+.col_icons .box2{
+    background-color: #f8eeef;
+}
+.col_icons .box3{
+    background-color: #edf6f1;
+}
+.box1 span{
+    margin-top: 25px;
+    color: hsl(300, 100%, 25%);
+
+}
+.box2 span{
+    margin-top: 25px;
+    color: #F27BBD;
+}
+.box3 span{
+    margin-top: 25px;
+    color: #10439F;
+}
+.col_steps{
+    width: 40%;
+    height: 100%;
+}
+.col_steps h1{
+    font-family: 'lato';
+    font-size: 24px;
+    line-height: 17px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #4c5c9e;
+}
+.col_steps p{
+    font-family: 'lato';
+    font-size: 16px;
+    line-height: 25px;
+    color: #919191;
+}
+.col_means_of_payment{
+    width: 48%;
+    height: 100%;
+}
+.col_means_of_payment img{
+    width: 95%;
+    height: 100%;
+    padding-left: 30px;
+}
+.gallery_product_caption{
+    margin-top: 5px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-bottom: 2px solid #ececec;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.gallery_product_caption h1{
+    font-family: 'lato';
+    color: #432f45;
+    font-size: 20px;
+    line-height: 32px;
+}
+.gallery_product_caption span a{
+    font-family: 'lato';
+    float:right;
+    font-size: 16px;
+    font-weight: 700;
+    color:#10439F;
+    line-height: 26px;
+}
+.gallery_product_caption .forward_arrow{
+    color: #8f9aa8;
+    font-family:'lato';
+    font-size: 16px;
+    padding-left: 5 px;
+}
+
+.product_gallery .wrapper{
+    display: flex;
+    background-color: red;
+    height: 600px;   
+    margin-top: 5px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.product_gallery .shirts_hoods{
+    flex: 1;
+    width: 100%;
+    height: 400px;
+    
+}
+.shirts_hoods div{
+    color: #fff;
+    background-color: #000;
+    width:18.2%;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+}
+.shirts_hoods .product1 {
+   background-image: url('shirts_hood_gallery/shirt_1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.shirts_hoods .product2{
+    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.shirts_hoods .product3{
+    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 250px;
+}
+.shirts_hoods .product4{
+    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 250px;
+}
+.shirts_hoods .product5{
+   
+}
