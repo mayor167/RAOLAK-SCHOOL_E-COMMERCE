@@ -525,8 +525,10 @@ footer .wrapper{
     width: 100%;  
 }
 footer .brand_logo_col{
+    padding-top: 5px;
     width: 35%;
     background-color:#f6f6f6;
+    overflow: hidden;
 }
 .brand_logo_col .logo{
     width: 100px;
@@ -557,13 +559,86 @@ footer .brand_logo_col{
 .brand_logo_col h1{
 }
 .social_handle_icons{
+    color: #666666;
     width: 20px;
     height: 20px;
     padding-left: 20px;
     padding-top: 25px;
     line-height: 20px;
 }
-footer .quick_links_col{
+footer .quick_links_columns{
+    padding-top: 40px;
+    display: flex;
     width: 65%;
-    background-color: hsl(300, 100%, 25%);
+    background-color:hsl(300, 100%, 25%);
+}
+.quick_link_col1{
+    width: 25%;
+    color: #fff;
+    padding-left: 30px;
+}
+.quick_links_columns h2{
+    border-bottom: 1px solid #ccc;  
+    padding-bottom: 10px;
+    font-family: 'lato';
+    font-size: 15px;
+    font-weight: 600;
+    width:fit-content;
+}
+
+.quick_link_col1 ul{
+    list-style: none;
+}
+.quick_link_col1 ul li{
+}
+.quick_link_col1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    font-family: 'lato';
+    font-size: 15px;
+}
+.quick_link_col2 ul{
+    list-style: none;
+}
+.quick_link_col2 ul li{
+}
+.quick_link_col2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    font-family: 'lato';
+    font-size: 15px;
+}
+.quick_link_col2{
+    width:25%;
+    color: #fff;
+    margin-left: 40px;
+    
+}
+
+.quick_link_col3{
+    color: #fff;
+    margin-left: 40px;
+}
+.quick_link_col3 p{
+    line-height: 50px;
+}
+.subscribe{
+    background-color: #F27BBD;
+    height: 40px;
+    border-radius: 20px;
+    width: 270px;
+}
+.subscribe input{
+    outline: none;
+    border: none;
+    padding: 15px 0px 15px 10px;
+    height: 10px;
+    border-radius:20px 0px 0px 20px;
+    width: 180px;
+}
+.quick_link_col3 p img{
+    padding-top: 10px;
+    width: 50%;
 }
