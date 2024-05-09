@@ -314,7 +314,7 @@ main .cheap_sales{
     padding-top: 250px;
     padding-bottom: 300px;
 }
-.product_slider h1{
+.product_slider h1{ 
   font-family: 'lato';
     font-size: 25px;
     color: #fff;
@@ -422,8 +422,8 @@ padding-bottom: 15px;
     margin-right: 60px;
     margin-left: 60px;
     border-bottom: 2px solid #ececec;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 .gallery_product_caption h1{
     font-family: 'lato';
@@ -448,8 +448,7 @@ padding-bottom: 15px;
 
 .product_gallery .wrapper{
     display: flex;
-    background-color: red;
-    height: 600px;   
+    height: 370px;   
     margin-top: 5px;
     margin-right: 60px;
     margin-left: 60px;
@@ -458,15 +457,27 @@ padding-bottom: 15px;
     flex: 1;
     width: 100%;
     height: 400px;
-    
 }
-.shirts_hoods div{
-    color: #fff;
-    background-color: #000;
+.shirts_hoods .display_div_with_product_details{
+    color: #ccc;
+    background-color: #fff;
     width:18.2%;
-    height: 400px;
+    height: 370px;
     float: left;
     margin-right: 20px;
+}
+.product_details{
+    background-color: #fff;
+    margin-top: 1px;
+    font-family: 'lato';
+    font-size: 16px;
+    line-height: 30px;
+}
+.product_details p{
+    color: #000;
+}
+.product_details span{
+    color: #007784;
 }
 .shirts_hoods .product1 {
    background-image: url('shirts_hood_gallery/shirt_1.jpg');
@@ -476,26 +487,158 @@ padding-bottom: 15px;
     height: 250px;
 }
 .shirts_hoods .product2{
-    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+    background-image: url('shirts_hood_gallery/shirt_2.jpg');
    background-repeat: no-repeat;
    background-size: cover;
     width: 100%;
     height: 250px;
 }
 .shirts_hoods .product3{
-    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+    background-image: url('shirts_hood_gallery/shirt_3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
      width: 100%;
      height: 250px;
 }
 .shirts_hoods .product4{
-    background-image: url('shirts_hood_gallery/shirt_1.jpg');
+    background-image: url('shirts_hood_gallery/shirt_4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
      width: 100%;
      height: 250px;
 }
 .shirts_hoods .product5{
-   
+    background-image: url('shirts_hood_gallery/shirt_5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 250px;
+}
+footer{
+    margin-top: 60px;
+    width: 100%;  
+    padding-left: 20px;
+    background-color:#f6f6f6;
+}
+footer .wrapper{
+    display: flex;
+    width: 100%;  
+}
+footer .brand_logo_col{
+    padding-top: 5px;
+    width: 35%;
+    background-color:#f6f6f6;
+    overflow: hidden;
+}
+.brand_logo_col .logo{
+    width: 100px;
+    height: 100px;
+}
+.brand_logo_col p{
+    font-size: 14px;
+    font-family: 'lato';
+    color: #6b6b6a;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.call_us{
+    width: 100%;
+    display: flex;
+}
+.call_us h1{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.call_us span{
+    color: #6b6b6a;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'lato';
+}
+.brand_logo_col h1{
+}
+.social_handle_icons{
+    color: #666666;
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 25px;
+    line-height: 20px;
+}
+footer .quick_links_columns{
+    padding-top: 40px;
+    display: flex;
+    width: 65%;
+    background-color:hsl(300, 100%, 25%);
+}
+.quick_link_col1{
+    width: 25%;
+    color: #fff;
+    padding-left: 30px;
+}
+.quick_links_columns h2{
+    border-bottom: 1px solid #ccc;  
+    padding-bottom: 10px;
+    font-family: 'lato';
+    font-size: 15px;
+    font-weight: 600;
+    width:fit-content;
+}
+
+.quick_link_col1 ul{
+    list-style: none;
+}
+.quick_link_col1 ul li{
+}
+.quick_link_col1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    font-family: 'lato';
+    font-size: 15px;
+}
+.quick_link_col2 ul{
+    list-style: none;
+}
+.quick_link_col2 ul li{
+}
+.quick_link_col2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    font-family: 'lato';
+    font-size: 15px;
+}
+.quick_link_col2{
+    width:25%;
+    color: #fff;
+    margin-left: 40px;
+    
+}
+
+.quick_link_col3{
+    color: #fff;
+    margin-left: 40px;
+}
+.quick_link_col3 p{
+    line-height: 50px;
+}
+.subscribe{
+    background-color: #F27BBD;
+    height: 40px;
+    border-radius: 20px;
+    width: 270px;
+}
+.subscribe input{
+    outline: none;
+    border: none;
+    padding: 15px 0px 15px 10px;
+    height: 10px;
+    border-radius:20px 0px 0px 20px;
+    width: 180px;
+}
+.quick_link_col3 p img{
+    padding-top: 10px;
+    width: 50%;
 }

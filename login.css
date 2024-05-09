@@ -102,7 +102,7 @@ background-position: center;
 overflow: hidden;
 }
 .container{
-    margin:100px 50px;
+    margin:75px 50px;
     display: flex;
     width: 800px;
     height: 450px;
@@ -114,14 +114,18 @@ overflow: hidden;
     padding:20px 20px 20px 50px;
     border-radius: 20px;
 }
+.welcome_msg img{
+    width: 100px;
+    height: 100px;
+}
 .login_div{
     flex: 1;
     background-color: hsl(300, 100%, 25%);
     border-radius: 20px;
 }
-.welcome_back_img{
-    height: 200px;
-    width: 290px;
+center .welcome_back_img{
+    height: 140px;
+    width: 255px;
 }
 .welcome_msg h1{
     font-family: "Helvetica";
