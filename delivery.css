@@ -95,6 +95,9 @@ input, select {
 /*my code start here*/
 
 /*my header*/
+body{
+    overflow-x: hidden;
+}
 header{
    width: 100%;
    height: 180px;
@@ -192,7 +195,115 @@ nav ul li a{
 }
 /*my header ends here*/
 
+.how_to_register{
+    display: flex;
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 550px;
+}
+.how_to_register .wrapper{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+.col_icons{
+    width: 12%;
+    height: 100%;
+}
+.col_icons div{
+    width: 80px;
+    height: 80px;
+   
+}
+.col_icons .box1{
+    background-color: #eef0fa;
+}
+.col_icons .box2{
+    background-color: #f8eeef;
+    margin-top: -10px;
+}
+.col_icons .box3{
+    background-color: #edf6f1;
+    margin-top: -10px;
+}
+.box1 span{
+    margin-top: 25px;
+    color: hsl(300, 100%, 25%);
 
+}
+.box2 span{
+    margin-top: 25px;
+    color: #F27BBD;
+}
+.box3 span{
+    margin-top: 25px;
+    color: #10439F;
+}
+.col_steps{
+    width: 40%;
+    height: 100%;
+}
+.col_steps h1{
+    font-family: 'lato';
+    font-size: 24px;
+    line-height: 10px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #4c5c9e;
+}
+.col_steps p{
+    font-family: 'lato';
+    font-size: 16px;
+    line-height: 25px;
+    color: #919191;
+    padding-left: 1px;
+}
+.col_means_of_payment{
+    width: 48%;
+    height: 100%;
+}
+.col_means_of_payment img{
+    width: 50%;
+    height: 50%;
+    padding-left: 30px;
+    margin-top:70px
+}
+
+
+main .main{
+    display: flex;
+    background-color: #d1c3ff;
+    height: 180px;
+}
+.col1{
+    width: 60%;
+}
+
+.col1 h1{
+   padding-top: 50px;
+   padding-left: 500px;
+   font-weight: 900;
+   font-size: 40px;
+}
+.col2 img{
+    height: 180px;
+    width: 200px;
+    opacity: 1;
+}
+main p{
+    color: #919191;
+    line-height: 30px;
+    padding-left: 40px;
+    font-family: 'lato';
+}
+main h2, h6{
+    color: #4c5c9e;
+    line-height: 30px;
+    padding-left: 40px;
+}
 /*my footer*/
 
 footer{

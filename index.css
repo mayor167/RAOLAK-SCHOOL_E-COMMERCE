@@ -95,6 +95,9 @@ input, select {
 
 
 /*My code starts here*/
+body{
+    overflow-x: hidden;
+}
 
 header{
    width: 100%;
