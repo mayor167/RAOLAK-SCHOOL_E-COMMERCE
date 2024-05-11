@@ -151,10 +151,26 @@ padding-top: 5px;
 .logo-banner .search span{
     float: right;
 }
+/*
+.right-menus{
+    position: relative;
+}
+.login_tooltips{
+    position: absolute;
+    left: 8px;
+    top: -18px;
+    visibility: hidden;
+    transition: opacity 0.3s;
+}
+.right-menus span .icon.material-symbols-outlined:hover .login_tooltips{
+visibility:visible;
+opacity: 1;
+}
+*/
 .right-menus span{
     border-right: 1px solid #ccc;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 header .nav-bar{
     display: flex;
