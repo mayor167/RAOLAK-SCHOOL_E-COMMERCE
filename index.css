@@ -95,12 +95,16 @@ input, select {
 
 
 /*My code starts here*/
+body{
+    overflow-x: hidden;
+}
 
 header{
    width: 100%;
    height: 180px;
    overflow: hidden;
 }
+
 header .logo-banner{
     display: flex;
     width: 100%;
@@ -148,10 +152,26 @@ padding-top: 5px;
 .logo-banner .search span{
     float: right;
 }
+/*
+.right-menus{
+    position: relative;
+}
+.login_tooltips{
+    position: absolute;
+    left: 8px;
+    top: -18px;
+    visibility: hidden;
+    transition: opacity 0.3s;
+}
+.right-menus span .icon.material-symbols-outlined:hover .login_tooltips{
+visibility:visible;
+opacity: 1;
+}
+*/
 .right-menus span{
     border-right: 1px solid #ccc;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 header .nav-bar{
     display: flex;
@@ -196,7 +216,7 @@ main{
     height: 600px;   
     margin-top: 5px;
     margin-right: 100px;
-    margin-left: 120px;    
+    margin-left: 120px;   
 }
 main .product_slider{
     width: 70%;
@@ -486,12 +506,121 @@ padding-bottom: 15px;
     width: 100%;
     height: 250px;
 }
+
+.shirts_hoods .product1:hover{
+    background-image: url('shirts_hood_gallery/shirt_1_back_view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
+}
+.product1{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.product1 .circle{
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #777777;
+    right:20px;
+    top:10px;
+  transform: translateY(-150%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product1 .circle:hover{
+background-color:#a51b2a;
+border: #a51b2a;
+}
+
+.product1 .circle center span{
+    margin-top: 7px;
+}
+.product1 .circle a{
+text-decoration: none;
+color: #c7c4c4;
+}
+.product1 .circle a:hover{
+    color: #fff;
+}
+.product1 h1 a{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    background-color: #10439F;
+    padding: 10px 0px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.product1:hover h1 a, .product1:hover .circle{
+    transform: translateY(0);
+}
 .shirts_hoods .product2{
-    background-image: url('shirts_hood_gallery/shirt_2.jpg');
+    background-image: url('shirts_hood_gallery/hoodie1.jpg');
    background-repeat: no-repeat;
    background-size: cover;
     width: 100%;
     height: 250px;
+}
+.shirts_hoods .product2:hover{
+    background-image: url('shirts_hood_gallery/hoodie_1_back_view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
+}
+.product2{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product2 .circle{
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #777777;
+    right:20px;
+    top:10px;
+  transform: translateY(-150%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product2 .circle:hover{
+background-color:#a51b2a;
+border: #a51b2a;
+}
+.product2 .circle center span{
+    margin-top: 7px;
+}
+.product2 .circle a{
+text-decoration: none;
+color: #c7c4c4;
+}
+.product2 .circle a:hover{
+    color: #fff;
+}
+.product2 h1 a{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    background-color: #10439F;
+    padding: 10px 0px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.product2:hover h1 a, .product2:hover .circle{
+    transform: translateY(0);
 }
 .shirts_hoods .product3{
     background-image: url('shirts_hood_gallery/shirt_3.jpg');
@@ -500,19 +629,177 @@ padding-bottom: 15px;
      width: 100%;
      height: 250px;
 }
+
+.shirts_hoods .product3:hover{
+    background-image: url('shirts_hood_gallery/shirt_3_back_view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
+}
+.product3{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product3 .circle{
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #777777;
+    right:20px;
+    top:10px;
+  transform: translateY(-150%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product3 .circle:hover{
+background-color:#a51b2a;
+border: #a51b2a;
+}
+.product3 .circle center span{
+    margin-top: 7px;
+}
+.product3 .circle a{
+text-decoration: none;
+color: #c7c4c4;
+}
+.product3 .circle a:hover{
+    color: #fff;
+}
+.product3 h1 a{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    background-color: #10439F;
+    padding: 10px 0px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.product3:hover h1 a, .product3:hover .circle{
+    transform: translateY(0);
+}
 .shirts_hoods .product4{
+    background-image: url('shirts_hood_gallery/hoodie_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 250px;
+}
+.shirts_hoods .product4:hover{
+    background-image: url('shirts_hood_gallery/hoodie_2_back_view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.product4{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product4 .circle{
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #777777;
+    right:20px;
+    top:10px;
+  transform: translateY(-150%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product4 .circle:hover{
+background-color:#a51b2a;
+border: #a51b2a;
+}
+.product4 .circle center span{
+    margin-top: 7px;
+}
+.product4 .circle a{
+text-decoration: none;
+color: #c7c4c4;
+}
+.product4 .circle a:hover{
+    color: #fff;
+}
+.product4 h1 a{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    background-color: #10439F;
+    padding: 10px 0px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.product4:hover h1 a, .product4:hover .circle{
+    transform: translateY(0);
+}
+.shirts_hoods .product5{
     background-image: url('shirts_hood_gallery/shirt_4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
      width: 100%;
      height: 250px;
 }
-.shirts_hoods .product5{
-    background-image: url('shirts_hood_gallery/shirt_5.jpg');
+.shirts_hoods .product5:hover{
+    background-image: url('shirts_hood_gallery/shirt_4_back_view.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-     width: 100%;
-     height: 250px;
+    height: 250px;
+}
+.product5{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product5 .circle{
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #777777;
+    right:20px;
+    top:10px;
+  transform: translateY(-150%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product5 .circle:hover{
+background-color:#a51b2a;
+border: #a51b2a;
+}
+.product5 .circle center span{
+    margin-top: 7px;
+}
+.product5 .circle a{
+text-decoration: none;
+color: #c7c4c4;
+}
+.product5 .circle a:hover{
+    color: #fff;
+}
+.product5 h1 a{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    background-color: #10439F;
+    padding: 10px 0px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.product5:hover h1 a, .product5:hover .circle{
+    transform: translateY(0);
 }
 footer{
     margin-top: 60px;
@@ -625,7 +912,7 @@ footer .quick_links_columns{
     line-height: 50px;
 }
 .subscribe{
-    background-color: #F27BBD;
+    background-color: #c53686;
     height: 40px;
     border-radius: 20px;
     width: 270px;
@@ -642,3 +929,39 @@ footer .quick_links_columns{
     padding-top: 10px;
     width: 50%;
 }
+
+
+
+
+
+
+.shop_dropdown {
+    position: relative;
+  }
+  
+  .shop_dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(194, 30, 30, 0.2);
+    z-index: 3;
+    top: 100%;
+    left: 0;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
