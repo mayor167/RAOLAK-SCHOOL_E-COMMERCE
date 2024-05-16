@@ -195,26 +195,122 @@ nav ul li a{
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
+}
+
+.shop-hall {
+max-width: 1200px;
+margin: 0 auto;
+}
+`
+.fashion {
+    margin-top: 10px;
+}
+
+.shop {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: px;
+    border: 20px solid white;
+    margin: 0 auto;
+}
+
+.shop h3 {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
 }
 
 .shop-container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0px;
+
 }
+
+.shop-box {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    border: 5px solid white;
+    
+    
+}
+
+.shop-men {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    background-image:url(sneakers/men-shop6.jpg);
+    border: 5px solid white;
+}
+
+.shop-women {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    background-image:url(sneakers/women-shop3.jpg);
+    border: 5px solid white;
+}
+
+.shop-box-inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 0px solid white;
+}
+
+
+.top {
+    background-color: gray;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+   margin: 0 auto;
+
+}
+
 
 .product-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Change this line */
     gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
 }
 
 
 .product {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 20px;
 }
 
 .product img {
@@ -231,12 +327,13 @@ body {
 }
 
 .add-to-cart {
-    background-color: #10439f;
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 20px 0px;
 }
 
 .add-to-cart:hover {
@@ -245,13 +342,150 @@ body {
 
 
 .ratings {
-    font-weight: bold;
-    color: #007784;
+    color: green;
 }
 
 .rating {
     font-size: 20px;
 }
+
+.shop-2 {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.men-accessories {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    background-image:url(sneakers/men-accessories2.jpg);
+}
+
+.women-accessories {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    background-image:url(sneakers/female-accessories1.jpg);
+    }
+
+.watches {
+    background-image:url(sneakers/watches2.jpg);
+    background-image: nowrap;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+
+.upper-row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+.upper-row2 h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.lower-row2 {
+    width: 100%;
+    margin-top: px;
+}
+
+.lower-row2 h3 {
+font-size: 20px;
+color: white;
+}
+
+
+.shop-kids {
+    background-image:url(sneakers/shop-kid2.jpg);
+    background-image: nowrap;
+    height: 400px;
+    width: 100%;
+}
+
+.shop-kids h3 {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+
+.product-image-official-store {
+    background-image: url(sneakers/sneakers11.jpg);
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    width: 100%;
+    position: relative; /* Position relative for pseudo-elements */
+    margin: 15px auto;
+    max-width: 1200px;
+    padding-left: 40px;
+}
+
+
+
+
+
+.box {
+    width: calc(12.5% - 20px); 
+    height: 130px;
+    border: 20px solid yellow;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 20px; 
+    transition: transform 0.3s ease;
+}
+
+.top h2 {
+    font-size: 20px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+
+
+.shop-box-inner {
+    position: relative;
+    border: 2px solid white; 
+    transition: transform 0.3s ease;
+}
+
+.shop-box-inner:hover {
+    transform: translate(5px, 5px);
+}
+
 
 
 
@@ -269,7 +503,7 @@ body {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(194, 30, 30, 0.2);
-    z-index: 1;
+    z-index: 3;
     top: 100%;
     left: 0;
   }
@@ -284,4 +518,3 @@ body {
   .dropdown-content a:hover {
     background-color: #f1f1f1;
   }
-  
