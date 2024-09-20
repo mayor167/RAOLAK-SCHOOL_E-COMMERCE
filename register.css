@@ -103,13 +103,18 @@ body{
     .container{
         display: flex;
         flex-flow: row wrap;
-        background-color: hsl(300, 100%, 25%);
+        /* background-color: #e04f9e; */
         width: 800px;
-        height: 500px;
+        height: 670px;
         margin:65px 50px;
     }
     .slider-div{
         flex: 1;
+        margin-right: -50px;
+        border-radius: 10px;
+        margin-top: 25px;
+        margin-left: 35px;
+        height: 670px;
         animation: 20s slide infinite linear;
         background-repeat: no-repeat;
         background-size: cover;
@@ -135,13 +140,19 @@ body{
     .register-form-div{
         flex: 1;
     }
+    span img{
+        margin-top: -20px;
+        width: 70px;
+        height: 70px;
+        float: right;
+    }
 /*my div-form start here*/
 .div-form{
     background-color: #ffffff;
     display: inline-block;
-    width: 300px;
-    height: 450px;
-    padding-left:20px;
+    width: 335px;
+    height: 670px;
+    padding-left:10px;
     padding-right: 0px;
     border-radius:5px;
     margin:25px 40px 20px 50px;
@@ -186,11 +197,12 @@ label{
     font-family: 'Segoe UI';
     font-weight: 400;
     line-height: 35px;
+    margin-left: 30px;
 }
 
 .div-form a{
     text-decoration: none;
-    color:hsl(300, 100%, 25%);
+    color:#000;
     font-size: 14px;
     line-height: 24px;
     font-family: 'Segoe UI';
@@ -201,15 +213,20 @@ input[type="checkbox"]{
     height: 20px;
     margin-top: 15px;
 }
-.div-login-btn{
+ .div-login-btn{
+    border: none;
 background-color:#10439F;
 color: #fff;
 height: -1000px;
 margin-right: 20px;
-padding: 10px 0px;
+padding: 10px 25px;
 border-radius: 10px;
 margin-top: 10px;
 margin-bottom: -20px;
+}
+button:hover{
+    background-color:#e04f9e;
+    cursor: pointer;
 }
 .div-login-btn h5{
     color: #fff;

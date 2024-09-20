@@ -29,17 +29,17 @@
             </div>
             
             <div class="right-menus">
-                <a href="login.html"><span class="icon material-symbols-outlined">login</span></a>
-                <a href="register.html"><span class="icon material-symbols-outlined">How_To_Reg</span></a>
+                <a href="login.php"><span class="icon material-symbols-outlined">login</span></a>
+                <a href="register.php"><span class="icon material-symbols-outlined">How_To_Reg</span></a>
                 <a href=""><span class="icon material-symbols-outlined">chat</span></a>
             </div>
         </div>
         <div class="nav-bar">
             <nav>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li>
                     <li class="shop_dropdown">
-                        <a href="shop.html">SHOP</a>
+                        <a href="shop.php">SHOP</a>
                         <div class="dropdown-content">
                             <a href="#">Cloths</a>
                             <a href="#">Accessories</a>
@@ -47,9 +47,9 @@
                             <a href="#">Shoes</a>
                         </div>
                     </li>
-                    <li><a href="delivery.html">DELIVERY</a></li>
-                    <li><a href="legal_notice.html">LEGAL NOTICE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="delivery.php">DELIVERY</a></li>
+                    <li><a href="legal_notice.php">LEGAL NOTICE</a></li>
+                    <li><a href="blog.php">BLOG</a></li>
                     <li><a href="#">ABOUT US</a></li>
                 </ul>
             </nav>

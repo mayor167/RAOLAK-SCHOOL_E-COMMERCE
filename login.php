@@ -1,3 +1,21 @@
+<?php
+session_start();
+function displayErrors() {
+    $output = '';
+    if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) {
+        $output .= '<div style="color:red">';
+        foreach ($_SESSION['errors'] as $error) {
+            $output .= '<li>' . htmlspecialchars($error) . '</li>';
+          
+        }
+        $output .= '</div>';
+        unset($_SESSION['errors']);
+    }
+    return $output;
+}
+// $username = isset($_COOKIE['username']);
+// $password = isset($_COOKIE['password']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +23,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce|Login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login.css?v=4.0">
 </head>
 <body>
     <div class="container">
@@ -19,8 +37,11 @@
         </div>
         <div class="login_div">
                 <div class="div-form">
-                    <form action="#" method="post">
+                    <form action="engines/loginhandler.php" method="post">
                         <h2>Login</h2>
+                        <?php
+                        echo displayErrors();
+                        ?> 
                         <label for="username">Username</label>
                         <div class="div-input">
                             <span class="icon material-symbols-outlined">person</span>
@@ -33,16 +54,16 @@
                             <input type="password" name="pwd" placeholder="Input your Password">
                         </div>
                         <br>
-                            <input class="ui check checkbox" type="checkbox"name="remember-me"><label for="remember-me" class="label-rem">Remember me</label>
+                            <input class="ui check checkbox" type="checkbox" name="remember-me" <?php if(isset($_COOKIE['username'])){echo 'checked';}?>><label for="remember-me" class="label-rem">Remember me</label>
                             <center>
-                                <div class="div-login-btn">
+                                <button type="submit" class="div-login-btn">
                                     <h5>Sign in</h5>
-                                </div>
+                                </button>
                             </center>
                             <br><br>
-                       <a href="#" class="forgot-pwd">Forgot password? Recover</a>
+                       <a href="forgotPassword.php" class="forgot-pwd">Forgot password? Recover</a>
                        <br>
-                       <a href="register.html">
+                       <a href="register.php">
                         Don't have an account? Register</a>
                     </form> 
                 </div>

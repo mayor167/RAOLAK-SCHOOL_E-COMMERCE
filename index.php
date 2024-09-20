@@ -9,13 +9,24 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css?v=8.0">
+    <script src="awuf_timer.js?v=4.0"></script>
 </head>
 <body>
     <header>
         <div class="logo-banner">
             <img src="brand_logo.png" alt="NAIRA4GOODS">
-            <h1>NAIRA4GOODS</h1>
+            <h1><span class="brand-letter">N</span>
+        <span class="brand-letter">A</span>
+        <span class="brand-letter">I</span>
+        <span class="brand-letter">R</span>
+        <span class="brand-letter">A</span>
+        <span class="brand-letter">4</span>
+        <span class="brand-letter">G</span>
+        <span class="brand-letter">O</span>
+        <span class="brand-letter">O</span>
+        <span class="brand-letter">D</span>
+        <span class="brand-letter">S</span></h1>
                 <select name="Allproduct">
                     <option value="">All</option>
                     <option value="Bags">Bags</option>
@@ -28,19 +39,19 @@
             </div>
             
             <div class="right-menus">
-                <a href="login.html"><span class="icon material-symbols-outlined">login</span></a>
+                <a href="login.php"><span class="icon material-symbols-outlined">login</span><h2>Login</h2></a>
                <!--<i class="login_tooltips">Login</i>--> 
-                <a href="register.html"><span class="icon material-symbols-outlined">How_To_Reg</span></a>
-                <a href=""><span class="icon material-symbols-outlined">chat</span></a>
+                <a href="register.php"><span class="icon material-symbols-outlined">How_To_Reg</span><h2>Register</h2></a>
+                <a href=""><span class="icon material-symbols-outlined">chat</span><h2>Help?</h2></a>
             </div>
         </div>
         <div class="nav-bar">
             <nav>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li>
                 
                         <li class="shop_dropdown">
-                            <a href="shop.html">SHOP</a>
+                            <a href="shop.php">SHOP</a>
                             <div class="dropdown-content">
                                 <a href="#">Cloths</a>
                                 <a href="#">Accessories</a>
@@ -50,10 +61,10 @@
                         </li>
                         
             
-                    <li><a href="delivery.html">DELIVERY</a></li>
-                    <li><a href="legal_notice.html">LEGAL NOTICE</a></li>
+                    <li><a href="delivery.php">DELIVERY</a></li>
+                    <li><a href="legal_notice.php">LEGAL NOTICE</a></li>
                     <li><a href="#">BLOG</a></li>
-                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="about_me.php">ABOUT US</a></li>
                 </ul>
             </nav>
         </div>
@@ -74,10 +85,10 @@
        
         <center>
             <ul>
-                <li><a href="register.html">Register</a>
+                <li><a href="register.php">Register</a>
                 </li>
                 <li>
-                    <a href="login.html">Login</a>
+                    <a href="login.php">Login</a>
                 </li>
             </ul>
         </center>
@@ -85,26 +96,26 @@
         
     </div>
     <div class="cheap_sales">
-        <div class="col_awuf_sales">
+        <div class="col_awuf_sales" id="col_awuf_sales">
             <center>
                 <p><i>Don't Miss</i></p>
             <h1>AWUF SALE ENDS SOON</h1>
             </center>
-            <div class="div_time">
+            <div class="div_time" id="div_time">
                <center>
-                <h1>24</h1>
+                <h1 id="hours">24</h1>
                 <h6>HOURS</h6>
                 </center> 
             </div>
             <div class="div_time">
                 <center>
-                    <h1>00</h1>
+                    <h1 id="mins">00</h1>
                     <h6>MIN</h6>
                     </center> 
             </div>
             <div class="div_time">
                 <center>
-                    <h1>00</h1>
+                    <h1 id="secs">00</h1>
                     <h6>SEC</h6>
                     </center> 
             </div>
@@ -458,23 +469,23 @@
                 <div class="quick_link_col1">
                     <h2>Information</h2>
                     <ul>
-                        <li><a href="delivery.html">Delivery</a></li>
-                        <li><a href="about_me.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="sitemap.html">Sitemap</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="delivery.php">Delivery</a></li>
+                        <li><a href="about_me.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="sitemap.php">Sitemap</a></li>
+                        <li><a href="shop.php">Shop</a></li>
+                        <li><a href="index.php">Home</a></li>
                     </ul>
                 </div>
                 <div class="quick_link_col2">
                         <h2>Custom Links</h2>
                         <ul>
-                            <li><a href="legal_notice.html">Legal Notice</a></li>
-                            <li><a href="new_products.html">New Products</a></li>
-                            <li><a href="best_sales.html">Best Sales</a></li>
-                            <li><a href="terms_and_conditions.html">Terms and Conditions</a></li>
-                            <li><a href="register.html">Register</a></li>
-                            <li><a href="login.html">Login</a></li>
+                            <li><a href="legal_notice.php">Legal Notice</a></li>
+                            <li><a href="new_products.php">New Products</a></li>
+                            <li><a href="best_sales.php">Best Sales</a></li>
+                            <li><a href="terms_and_conditions.php">Terms and Conditions</a></li>
+                            <li><a href="register.php">Register</a></li>
+                            <li><a href="login.php">Login</a></li>
                         </ul>
                 </div>
                 <div class="quick_link_col3">

@@ -29,18 +29,18 @@
             </div>
             
             <div class="right-menus">
-                <a href="login.html"><span class="icon material-symbols-outlined">login</span></a>
-                <a href="register.html"><span class="icon material-symbols-outlined">How_To_Reg</span></a>
+                <a href="login.php"><span class="icon material-symbols-outlined">login</span></a>
+                <a href="register.php"><span class="icon material-symbols-outlined">How_To_Reg</span></a>
                 <a href=""><span class="icon material-symbols-outlined">chat</span></a>
             </div>
         </div>
         <div class="nav-bar">
             <nav>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="shop.html">SHOP</a></li>
-                    <li><a href="delivery.html">DELIVERY</a></li>
-                    <li><a href="legal_notice.html">LEGAL NOTICE</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="shop.php">SHOP</a></li>
+                    <li><a href="delivery.php">DELIVERY</a></li>
+                    <li><a href="legal_notice.php">LEGAL NOTICE</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">ABOUT US</a></li>
                 </ul>
@@ -133,23 +133,23 @@
                 <div class="quick_link_col1">
                     <h2>Information</h2>
                     <ul>
-                        <li><a href="delivery.html">Delivery</a></li>
-                        <li><a href="about_me.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="sitemap.html">Sitemap</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="delivery.php">Delivery</a></li>
+                        <li><a href="about_me.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="sitemap.php">Sitemap</a></li>
+                        <li><a href="shop.php">Shop</a></li>
+                        <li><a href="index.php">Home</a></li>
                     </ul>
                 </div>
                 <div class="quick_link_col2">
                         <h2>Custom Links</h2>
                         <ul>
-                            <li><a href="legal_notice.html">Legal Notice</a></li>
-                            <li><a href="new_products.html">New Products</a></li>
-                            <li><a href="best_sales.html">Best Sales</a></li>
-                            <li><a href="terms_and_conditions.html">Terms and Conditions</a></li>
-                            <li><a href="register.html">Register</a></li>
-                            <li><a href="login.html">Login</a></li>
+                            <li><a href="legal_notice.php">Legal Notice</a></li>
+                            <li><a href="new_products.php">New Products</a></li>
+                            <li><a href="best_sales.php">Best Sales</a></li>
+                            <li><a href="terms_and_conditions.php">Terms and Conditions</a></li>
+                            <li><a href="register.php">Register</a></li>
+                            <li><a href="login.php">Login</a></li>
                         </ul>
                 </div>
                 <div class="quick_link_col3">
