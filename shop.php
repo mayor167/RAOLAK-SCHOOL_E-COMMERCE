@@ -63,13 +63,247 @@
                     </p>
         </div>
     </header>
-    <div class="shop-container">
-        <h2>Shop Page</h2>
-        <div class="product-grid">
+
+
+    <div class="shop-hall">
+
+        <div class="fashion">
+            <center><h1>FASHION</h1></center>
+        </div>
+    
+        <!-- Men's Shop-women shop-->
+        <div class="content">
+            <div class="shop">
+                <div class="shop-men">
+                    <div class="shop-box-inner">
+                        <h3><a href="#"></a>SHOP <br> MEN</h3>
+                    </div>
+                </div>
+                <div class="shop-women">
+                    <div class="shop-box-inner">
+                        <h3><a href="#"></a>SHOP <br> WOMEN</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop-container">
+                <div class="top">
+                    <h2>Top Fashion pick</h2>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="sneakers/sneakers 2.jpg" alt="Product 1">
+                        </div>
+                        <div class="product-details">
+                            <h3>Product 1</h3>
+                            <p class="price">$20</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                            <div class="ratings">
+                                <span class="rating">&#9733;</span>
+                                <span class="rating">&#9733;</span>
+                                <span class="rating">&#9733;</span>
+                                <span class="rating">&#9733;</span>
+                                <span class="rating">&#9733;</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- Product 2 -->
+                    <div class="product">
+                        <img src="sneakers/mini short gown.jpg" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p class="price">$20</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="ratings">
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                        </div>
+                    </div>
+        
+                    <!-- Product 3 -->
+                    <div class="product">
+                        <img src="sneakers/female-top3.jpg" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p class="price">$20</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="ratings">
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 4 -->
+                    <div class="product">
+                        <img src="sneakers/gown 2.jpg" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p class="price">$20</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="ratings">
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                        </div>
+                    </div>
+        
+                    <!-- Product 5 -->
+                    <div class="product">
+                        <img src="sneakers/lacoste.jpg" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p class="price">$20</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="ratings">
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lower Row -->
+        <div class="shop-2">
+            <div class="shop-kids">
+                <div class="shop-box-inner">
+                    <h3><a href="#"></a>SHOP <br> KIDS</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="top">
+            <h2>Male sizes</h2>
+        </div>
+        <div class="container2">
+            <div class="box">XXS</div>
+            <div class="box">XS</div>
+            <div class="box">S</div>
+            <div class="box">M</div>
+            <div class="box">L</div>
+            <div class="box">XL</div>
+            <div class="box">XXL</div>
+            <div class="box">XXXL</div>
+        </div>
+
+        <div class="shop-container">
+            <div class="top">
+                <h2>OFFICIAL STORES</h2>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="product-image-official-store">
+                        <img src="sneakers/adidas2.jpg" alt="Product 1">
+                    </div>
+                    <div class="product-details">
+                        <h3>Product 1</h3>
+                        <p class="price">$20</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="ratings">
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                            <span class="rating">&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+    <div class="product">
+        <img src="sneakers/nike.thangs" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="sneakers/puma.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+    </div>
+    <!-- Product 4 -->
+    <div class="product">
+        <img src="sneakers/Fila.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+
+        <!-- Product 5 -->
+    
+    </div>
+    <div class="product">
+        <img src="sneakers/fila2.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div>
+
+        <div class="shop-container">
+            <div class="top">
+            <h2>TOP DEALS</h2>
+            </div>
+            
+            <div class="product-grid">
             <!-- Product 1 -->
             <div class="product">
                 <div class="product-image">
-                    <img src="shop_images/round neck 2.jpg" alt="Product 1">
+                    <img src="sneakers/sneakers10.jpg" alt="Product 1">
                 </div>
                 <div class="product-details">
                     <h3>Product 1</h3>
@@ -77,191 +311,289 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <button class="add-to-cart">Add to Cart</button>
                     <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
+                        <span class="rating">&#9733;</span>
+                        <span class="rating">&#9733;</span>
+                        <span class="rating">&#9733;</span>
+                        <span class="rating">&#9733;</span>
+                        <span class="rating">&#9733;</span>
                     </div>
                 </div>
             </div>
-            
-            
+
             <!-- Product 2 -->
-            <div class="product">
-                <img src="shop_images/round neck.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-
-            <!-- Product 3 -->
-            <div class="product">
-                <img src="shop_images/Wrinkle Stretch Slim.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-            
-            <!-- Product 4 -->
-            <div class="product">
-                <img src="shop_images/Wrinkle Stretch Slim.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                </div>
-            </div>
-
-            <!-- Product 5 -->
-            <div class="product">
-                <img src="shop_images/Men's Cotton T Shirts.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-
-            <!-- Product 6-->
-            <div class="product">
-                <img src="shop_images/Men's shirt.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-
-            <!-- Product 7 -->
-            <div class="product">
-                <img src="shop_images/round neck 2.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-
-            <!-- Product 8 -->
-            <div class="product">
-                <img src="shop_images/round neck 2.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-
-            <!-- Product 9 -->
-            <div class="product">
-                <img src="shop_images/jean.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-            <!-- Product 10 -->
-            <div class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-
-            <!-- Product 11 -->
-            <div class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-            </div>
-
-            <!-- Product 12 -->
-            <div class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p class="price">$20</p>
-                <div class="ratings">
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span> 
-                    <span class="fas fa-star"></span>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
+    <div class="product">
+        <img src="round neck.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
         </div>
     </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="sneakers/sneakers6.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+        <img src="sneakers/male-top2.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product">
+        <img src="sneakers/male-top.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="upper-row2">
+    <div class="men-accessories">
+    <div class="shop-box-inner">
+    <h3><a href="#"></a>MEN' <br> ACCESSORIES</h3>
+    </div>
+    </div>
+    <div class="women-accessories">
+    <div class="shop-box-inner">
+    <h3><a href="#"></a>WOMEN <br> ACCESSORIES</h3>
+    </div>
+    </div>
+    </div>
+    <!-- Lower Row -->
+    <div class="lower-row2">
+    <div class="watches">
+    <div class="shop-box-inner">
+    <h3><a href="#"></a>WATCHES</h3>
+    </div>
+    </div>
+    
+    </div>
+    
+    <div class="shop-container">
+    <div class="top">
+    <h2>NEW ARRIVALS</h2>
+    </div>
+    
+    <div class="product-grid">
+    <!-- Product 1 -->
+    <div class="product">
+    <div class="product-image">
+        <img src="sneakers/sneakwes13.jpg" alt="Product 1">
+    </div>
+    <div class="product-details">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="round neck.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product">
+        <img src="sneakers/lacoste.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="product">
+        <img src="sneakers/sneakers11.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+        </div>
+        
+        <!-- Product 5 -->
+        <div class="product">
+        <img src="sneakers/sneakers10.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+        </div>
+        </div>
+        <div class="shop-container">
+        <div class="top">
+        <h2>Best sellers</h2>
+        </div>
+        
+        <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product">
+        <div class="product-image">
+        <img src="sneakers/watches3.jpg" alt="Product 1">
+        </div>
+        <div class="product-details">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+            <span class="rating">&#9733;</span>
+        </div>
+        </div>
+        </div>
+        
+        
+        <!-- Product 2 -->
+        <div class="product">
+        <img src="sneakers/jean2.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product">
+        <img src="sneakers/male-top2.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        </div>
+        </div>
+
+        <!-- Product 4 -->
+    <div class="product">
+        <img src="sneakers/female-top.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="ratings">
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        <span class="rating">&#9733;</span>
+        </div>
+        </div>
+
+
+        <!-- Product 5 -->
+    <div class="product">
+    <img src="sneakers/sneakers10.jpg" alt="Product 1">
+    <h3>Product 1</h3>
+    <p class="price">$20</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add-to-cart">Add to Cart</button>
+    <div class="ratings">
+    <span class="rating">&#9733;</span>
+    <span class="rating">&#9733;</span>
+    <span class="rating">&#9733;</span>
+    <span class="rating">&#9733;</span>
+    <span class="rating">&#9733;</span>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+
+    </div>shop-container ends
 </body>
 </html>
