@@ -1,4 +1,4 @@
-const endDate = new Date('2024-09-22T00:00:00');
+const endDate = new Date('2024-10-10T00:00:00');
 function countDown() {
     const now = new Date();
     const timeLeft = endDate - now;

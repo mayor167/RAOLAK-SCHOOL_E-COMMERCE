@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="userDashboard.css">
-    <script src="awuf_timer.js?v=1.0"></script>
+    <title>Naira4Goods | Dashboard</title>
+    <link rel="stylesheet" href="userDashboard.css?v=6.0">
+    <script src="awuf_timer.js?v=5.0"></script>
 </head>
 <body>
     <header>
@@ -29,10 +29,20 @@
             </div>
             
             <div class="right-menus">
-                <a href="login.php"><span class="icon material-symbols-outlined">login</span></a>
+                <a href="#" class="cart-menu">
+                    <span class="icon material-symbols-outlined">shopping_cart</span>
+                    <h2>Cart</h2>
+                    <span class="cart-notification"><h3>20</h3></span>
+                </a>
                <!--<i class="login_tooltips">Login</i>--> 
-                <a href="register.php"><span class="icon material-symbols-outlined">How_To_Reg</span></a>
-                <a href=""><span class="icon material-symbols-outlined">chat</span></a>
+                <a href="#"><span class="icon material-symbols-outlined">favorite</span><h2>Wishlist</h2></a>
+                <div class="account-dropdown">
+                    <a href="#" class="account-toggle"><span class="icon material-symbols-outlined">person</span><h2>Account</h2></a>
+                    <div class="dropdown-content">
+                        <a href="myprofile.php"><h3>My Profile</h3></a>
+                        <a href="engines/logouthandler.php"><h3>Logout</h3></a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="nav-bar">
@@ -91,7 +101,7 @@
                 <p><i>Don't Miss</i></p>
             <h1>AWUF SALE ENDS SOON</h1>
             </center>
-            <div class="div_time" id="div_time">
+                <div class="div_time" id="div_time">
                <center>
                 <h1 id="hours">24</h1>
                 <h6>HOURS</h6>
@@ -109,6 +119,8 @@
                     <h6>SEC</h6>
                     </center> 
             </div>
+                
+                   
             <center>
                 <div class="btn_browse">
                     <center> <h1>BROWSE NOW</h1></center>
@@ -137,7 +149,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product1">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                       <center><h1><a href="#">QUICK VIEW</a></h1></center>  
+                       <center><h1><button>QUCIK VIEW</button> </h1></center>  
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -154,7 +166,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product2">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -170,7 +182,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product3">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -186,7 +198,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product4">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -202,7 +214,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product5">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -226,7 +238,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product1">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                    
                    
@@ -245,7 +257,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product2">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -261,7 +273,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product3">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -277,7 +289,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product4">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -293,7 +305,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product5">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -316,10 +328,8 @@
                 <div class="display_div_with_product_details">
                     <div class="product1">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
-                   
-                   
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
                         <p>Round Neck T-shirt</p> 
@@ -335,7 +345,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product2">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center>  
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -351,7 +361,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product3">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -367,7 +377,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product4">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>
@@ -383,7 +393,7 @@
                 <div class="display_div_with_product_details">
                     <div class="product5">
                         <div class="circle"><a href="#"><center><span class="fas fa-heart"></span></center></a></div>
-                        <center><h1><a href="#">QUICK VIEW</a></h1></center> 
+                        <center><h1><button>QUICK VIEW</button></h1></center> 
                     </div>
                     <div class="product_details">
                         <h2>Brimstone Clothing</h2>

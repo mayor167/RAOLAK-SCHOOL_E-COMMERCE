@@ -172,13 +172,13 @@ opacity: 1;
     display: flex;
 }
 .right-menus span{
-    border-right: 2px solid #ccc;
+    border-right: 1px solid #ccc;
     padding-left: 15px;
     padding-right: 45px;
     height: 30px;
 }
 .right-menus h2{
-    border-right:2px solid #ccc;
+    border-right:1px solid #ccc;
      padding-left: 15px;
 
     /* padding-right: 25px;  */
@@ -569,7 +569,7 @@ color: #c7c4c4;
 .product1 .circle a:hover{
     color: #fff;
 }
-.product1 h1 a{
+.product1 h1 button{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -579,8 +579,9 @@ color: #c7c4c4;
     padding: 10px 0px;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
+    border: none;
 }
-.product1:hover h1 a, .product1:hover .circle{
+.product1:hover h1 button, .product1:hover .circle{
     transform: translateY(0);
 }
 .shirts_hoods .product2{
@@ -629,7 +630,7 @@ color: #c7c4c4;
 .product2 .circle a:hover{
     color: #fff;
 }
-.product2 h1 a{
+.product2 h1 button{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -639,8 +640,9 @@ color: #c7c4c4;
     padding: 10px 0px;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
+    border: none;
 }
-.product2:hover h1 a, .product2:hover .circle{
+.product2:hover h1 button, .product2:hover .circle{
     transform: translateY(0);
 }
 .shirts_hoods .product3{
@@ -690,7 +692,7 @@ color: #c7c4c4;
 .product3 .circle a:hover{
     color: #fff;
 }
-.product3 h1 a{
+.product3 h1 button{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -700,8 +702,9 @@ color: #c7c4c4;
     padding: 10px 0px;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
+    border: none;
 }
-.product3:hover h1 a, .product3:hover .circle{
+.product3:hover h1 button, .product3:hover .circle{
     transform: translateY(0);
 }
 .shirts_hoods .product4{
@@ -749,7 +752,7 @@ color: #c7c4c4;
 .product4 .circle a:hover{
     color: #fff;
 }
-.product4 h1 a{
+.product4 h1 button{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -759,8 +762,9 @@ color: #c7c4c4;
     padding: 10px 0px;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
+    border: none;
 }
-.product4:hover h1 a, .product4:hover .circle{
+.product4:hover h1 button, .product4:hover .circle{
     transform: translateY(0);
 }
 .shirts_hoods .product5{
@@ -808,7 +812,7 @@ color: #c7c4c4;
 .product5 .circle a:hover{
     color: #fff;
 }
-.product5 h1 a{
+.product5 h1 button{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -818,8 +822,9 @@ color: #c7c4c4;
     padding: 10px 0px;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
+    border: none;
 }
-.product5:hover h1 a, .product5:hover .circle{
+.product5:hover h1 button, .product5:hover .circle{
     transform: translateY(0);
 }
 footer{
@@ -845,7 +850,7 @@ footer .brand_logo_col{
 .brand_logo_col p{
     font-size: 14px;
     font-family: 'lato';
-    color: #6b6b6a;
+    color: #6b6b6a; 
     line-height: 20px;
     padding-bottom: 10px;
 }
