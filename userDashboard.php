@@ -1,3 +1,22 @@
+<?php
+session_start();
+if(!isset($_SESSION['userDetails'])){
+    header("Location: login.php");
+    die();
+}
+else{
+    $userDetails = $_SESSION['userDetails'];
+    if($userDetails){
+            $username = $userDetails['username'];
+            $fullname = $userDetails['fullname'];
+            $email = $userDetails['email'];
+            $gender = $userDetails['gender'];
+            $phoneNo = $userDetails['phoneNo'];
+            $state = $userDetails['state'];
+            $address = $userDetails['address'];
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
